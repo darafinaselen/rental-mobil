@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const galleryImages = [
   { src: "/sopir.png", alt: "Sopir Ramah" },
-  { src: "/antar-jemput.png", alt: "Antar Jemput Bandara" },
+  { src: "/Hero-5.jpg", alt: "Antar Jemput Bandara" },
   { src: "/tour.png", alt: "Paket Wisata Tour" },
   { src: "/armada.png", alt: "Armada Innova Reborn" },
   { src: "/pembayaran.png", alt: "Proses Mudah" },
