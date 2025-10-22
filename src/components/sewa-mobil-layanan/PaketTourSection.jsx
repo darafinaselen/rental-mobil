@@ -17,7 +17,7 @@ const tourPackages = [
     title: "Antar Jemput Bandara",
     description:
       "Layanan antar jemput dari/ke Bandara Internasional Lombok ke berbagai destinasi utama.",
-    image: "/antar-jemput.png",
+    image: "/Hero-5.jpg",
     href: "/harga/antar-jemput",
     imagePosition: "object-bottom",
   },
