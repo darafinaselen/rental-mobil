@@ -188,7 +188,7 @@ export default async function ArmadaDetailPage({ params }) {
     name: car.name,
     description: car.description,
     price: new Intl.NumberFormat("id-ID").format(car.startingPrice),
-    priceUnit: "/ 12 Jam (Termasuk Driver)", // optional: bisa diambil dari kategori tarif jika ada
+    priceUnit: "/ 12 Jam (Termasuk Driver + BBM)", // optional: bisa diambil dari kategori tarif jika ada
     longDescription: car.description, // bisa diperluas jika ada field khusus
     images: Array.isArray(car.gallery)
       ? car.gallery.map((g) => {

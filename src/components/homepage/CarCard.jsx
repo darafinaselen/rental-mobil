@@ -35,7 +35,9 @@ const CarCard = ({ car }) => {
         <div className="mt-auto">
           <p className="text-xl font-bold text-gray-900">
             {car.price}{" "}
-            <span className="text-sm font-normal text-gray-600">/hari</span>
+            <span className="text-sm font-normal text-gray-600">
+              / 12 Jam (Driver + BBM)
+            </span>
           </p>
           <div className="mt-4 flex justify-end gap-2">
             <Link
@@ -45,7 +47,10 @@ const CarCard = ({ car }) => {
                   : `/detail-armada?name=${car.name}`
               }
             >
-              <Button variant="outline" className="w-full md:w-44 bg-primary text-white hover:bg-[#2165a9]">
+              <Button
+                variant="outline"
+                className="w-full md:w-44 bg-primary text-white hover:bg-[#2165a9]"
+              >
                 Detail
               </Button>
             </Link>
