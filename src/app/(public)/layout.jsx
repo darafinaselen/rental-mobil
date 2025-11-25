@@ -3,12 +3,15 @@ import React from "react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
+import GoogleTranslate from "@/components/GoogleTranslate";
+
 export default function PublicLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen w-full bg-white">
       <Header />
       <main className="flex-grow">{children}</main>
       <Footer />
+      <GoogleTranslate />
     </div>
   );
 }
